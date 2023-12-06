@@ -20,7 +20,10 @@ body{
 }
 .navbar{
     background-color: cornflowerblue;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 2%;
 }
 img{
-    margin-top: 0%;
+    margin-top: 3%;
 }
