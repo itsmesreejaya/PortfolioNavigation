@@ -1,0 +1,21 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    text-align: end;
+    color: black;
+    margin-right: 40px;
+}
+a:hover{
+    color: crimson;
+}
+.active{
+    color: brown;
+}
+.profile-image {
+    margin: 1%;
+    padding: 1%;
+}
