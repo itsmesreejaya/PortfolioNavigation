@@ -148,7 +148,9 @@ body{
     margin-left: 0%;
     margin-top: 2%;
     animation-name: colour;
-  animation-duration: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 5px;
+  animation-duration: 5s;
 }
 img{
   margin-top: 3%;
@@ -161,5 +163,26 @@ img{
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
   }
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.skills{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
     </style>
 </html>
