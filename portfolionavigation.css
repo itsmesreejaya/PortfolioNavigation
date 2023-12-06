@@ -15,3 +15,12 @@ a:hover{
 .active{
     color: brown;
 }
+body{
+    background-color: thistle;
+}
+.navbar{
+    background-color: cornflowerblue;
+}
+img{
+    box-sizing: 70%;
+}
