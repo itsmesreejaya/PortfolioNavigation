@@ -1,7 +1,4 @@
-.header-container{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 a{
     text-decoration: none;
@@ -16,7 +13,10 @@ a:hover{
     color: brown;
 }
 body{
-    background-color: thistle;
+    background-image: url("background.jpg");   
+    background-repeat: no-repeat; 
+    background-size: 100%;
+
 }
 .navbar{
     background-color: cornflowerblue;
@@ -34,15 +34,14 @@ img{
 .text{
   animation-duration: 3s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 @keyframes colour {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {background-color:thistle}
+    25%{background-color: azure;}
+    75%{background-color: pink;}
+  50%{background-color: lightcyan;}
+      100% {background-color:cornflowerblue}
   }
   @keyframes slidein {
     from {

@@ -4,20 +4,19 @@
       <title>About Me</title>
       <div class="navbar">
         <a href="home.html">Home</a>
-        <a class="active" href="aboutme.html">About Me</a>
-        <a href="education.html">Education</a>
-        <a href="department.html">Department</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="department.html">Projects</a>
         <a href="myskills.html">My Skills</a>
         <a href="contact.html">Contact</a>
+        <a class="active" href="achievements.html">Achievements</a>
       </div>
       <div>
         <img src="aboutme.jpg" alt="this is image">
       </div>
     </head>
     <body>
-        <hr />
         <p>
-          A software development enthusiast looking forward to learning new technology and become an expert in web development.
+          A software development enthusiast looking forward to learning new technology.<br>
           Motivated college graduate looking to apply extensive skills in project management.
           <ol>
             <li>Able<br>
@@ -56,7 +55,10 @@ a:hover{
     color: brown;
 }
 body{
-    background-color: thistle;
+  background-image: url("background.jpg");  
+  background-repeat: no-repeat; 
+  background-size: 100%;
+ 
 }
 .navbar{
     background-color: cornflowerblue;
@@ -77,11 +79,11 @@ p{
   animation-name: slidein;
 }
 @keyframes colour {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:thistle}
+  25%{background-color: azure;}
+  75%{background-color: pink;}
+50%{background-color: lightcyan;}
+    100% {background-color:cornflowerblue}
   }
   @keyframes slidein {
   from {

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Achievements</title>
+    </head>
+    <body>
+           <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="department.html">Projects</a>
+            <a href="myskills.html">My Skills</a>
+            <a href="contact.html">Contact</a>
+            <a class="active" href="achievements.html">Achievements</a>
+           </div>
+           <div class="text">
+                <p>
+                    <ul>
+                        <li>Content writer, PaperKin, the student-run blog of Govt. Model Engineering College.</li>
+                        <li>Content writer, MUNer’s Daily, the student-run blog of Govt. Model Engineering College.</li>
+                        <li>Content writer, IEEE MEC SB, the student-run blog.</li>
+                    </ul>
+                </p>
+           </div>
+    </body>
+    <style>
+        @keyframes colour {
+  0%   {background-color:thistle}
+  25%{background-color: azure;}
+  75%{background-color: pink;}
+50%{background-color: lightcyan;}
+    100% {background-color:cornflowerblue}
+  }
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.navbar{
+    background-color: cornflowerblue;
+    color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 2%;
+    animation-name: colour;
+    animation-duration: 5s;
+    border-radius: 5px;
+  animation-iteration-count: infinite;}
+  .text{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+body{
+    background-image: url("background.jpg");   
+    background-repeat: no-repeat; 
+    background-size: 100%;
+
+}
+a{
+    text-decoration: none;
+    text-align: end;
+    color: black;
+    margin-right: 40px;
+}
+a:hover{
+    color: crimson;
+}
+.active{
+    color: brown;
+}
+    </style>
+</html>
