@@ -38,11 +38,11 @@ img{
   animation-direction: alternate;
 }
 @keyframes colour {
-    0%   {background-color:thistle}
-    25%{background-color: azure;}
-    75%{background-color: pink;}
-  50%{background-color: lightcyan;}
-      100% {background-color:cornflowerblue}
+    0%   {background-color:azure}
+    25%{background-color:bisque;}
+  50%{background-color: thistle;}
+  75%{background-color: pink;}
+      100% {background-color:hotpink}
   }
   @keyframes slidein {
     from {
